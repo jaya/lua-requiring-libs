@@ -10,9 +10,9 @@ int main(int argc, const char *argv[])
 
 	luaL_openlibs(L);
 
+
 	luaL_dofile(L, "root/main.lua");
 	
 	lua_close(L);
 
 }
-
